@@ -1,0 +1,10 @@
+Car license plate - VARCHAR (8) - UNIQUE NOTNULL
+Brand - VARCHAR (15) - NOTNULL
+Model - VARCHAR (20) - NULL
+Color - VARCHAR (11) (rosso, giallo / #ffffff / 255, 255, 255) - NOTNULL
+KM traveled - MEDIUMINT (6, 3) - NOTNULL
+Conditions - VARCHAR (5) (nuova, usata) - NULL 
+Registration date - DATE - NOTNULL
+Price - MEDIUMINT (6, 3) - NOTNULL
+Description - TEXT - NULL
+
